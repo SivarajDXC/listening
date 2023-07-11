@@ -1,23 +1,49 @@
 <!DOCTYPE html>
 <html>
   <head>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <style>
-    /* CSS for the audio player */
-        .container {
-          display: flex;
-          height: 100vh;
-          justify-content: center;
-          align-items: center;
-        }
-  </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .container {
+        background-color: #FEF4E4;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+      }
+      .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        border: none;
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: sans-serif;
+        margin-top: 50px;
+      }
+    </style>
   </head>
-<body>
- <div class="container">
-    <audio controls>      
-      <source src="https://raw.githubusercontent.com/SivarajDXC/listening/master/sample/sample-9s.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-    </audio>
-  </div>
-</body>
+  <body>
+    <div class="container">
+      <div>
+        <audio controls>
+          <source
+            src="https://raw.githubusercontent.com/SivarajDXC/listening/master/sample/sample-9s.mp3" type="audio/mpeg"
+            type="audio/mpeg"
+          />
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+
+      <div>
+        <a class="btn" href="https://forms.office.com/r/Ush39vfhMN">
+          Take Challenge
+        </a>
+      </div>
+    </div>
+  </body>
 </html>
